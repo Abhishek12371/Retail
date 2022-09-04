@@ -36,7 +36,8 @@ public class Headers {
 		action = new Actions(driver);
 
 	}
-
+//vgfjhvbvvvvvvvvvvvvvhhjbgh
+	//vhhjvjhbjbvh
 	public void openSeller() {
 		becomeSeller.click();
 	}
