@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Headers {
@@ -18,11 +19,6 @@ public class Headers {
 	@FindBy(xpath = "//div[text()='Abhishek']")
 	private WebElement abhi;
 
-	@FindBy(xpath = "//div[text()='Abhishekssa']")
-	private WebElement abhis;
-	
-    @FindBy(xpath = "//div[text()='LogIn']")
-	private WebElement abhiii;
 	
 	@FindBy(xpath = "//div[text()='Logout']")
 	private WebElement logout;
@@ -70,7 +66,7 @@ public class Headers {
 
 
 		wait = new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(null)		
+		wait.until(ExpectedConditions.visibilityOf(logout));		
 
 				//		Actions action = new Actions(driver);
 				//		action.moveToElement(abhi).perform();		
