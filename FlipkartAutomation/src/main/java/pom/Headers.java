@@ -18,6 +18,12 @@ public class Headers {
 	@FindBy(xpath = "//div[text()='Abhishek']")
 	private WebElement abhi;
 
+	@FindBy(xpath = "//div[text()='Abhishekssa']")
+	private WebElement abhis;
+	
+	@FindBy(xpath = "//div[text()='Abhishekss']")
+	private WebElement abshi;
+	
 	@FindBy(xpath = "//div[text()='Logout']")
 	private WebElement logout;
 
@@ -36,8 +42,8 @@ public class Headers {
 		action = new Actions(driver);
 
 	}
-//vgfjhvbvvvvvvvvvvvvvhhjbgh
-	//vhhjvjhbjbvh
+
+
 	public void openSeller() {
 		becomeSeller.click();
 	}
