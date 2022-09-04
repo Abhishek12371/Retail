@@ -21,8 +21,7 @@ public class Headers {
 	@FindBy(xpath = "//div[text()='Abhishekssa']")
 	private WebElement abhis;
 	
-	@FindBy(xpath = "//div[text()='Abhishekss']")
-	private WebElement abshi;
+
 	
 	@FindBy(xpath = "//div[text()='Logout']")
 	private WebElement logout;
